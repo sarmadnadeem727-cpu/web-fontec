@@ -1,0 +1,7 @@
+# Ignore Windows reserved name conflicts
+**/aux.png
+**/Aux.png
+**/AUX.png
+**/aux.*
+**/Aux.*
+**/AUX.*

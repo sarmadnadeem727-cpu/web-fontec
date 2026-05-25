@@ -1,0 +1,199 @@
+/* polaris.css file from App End*/
+/* @charset "UTF-8"; */
+@import "jsuites.css";
+@import "../js/utils.js";
+
+
+
+
+
+/* Custom styling for the modal Theme App Extension */
+.back_in_stock_custom-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.back_in_stock_show-modal-button {
+    background-color: #0D2330 ;
+    height: 40px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    /* padding: 10px 20px;
+    border-radius: 5px; */
+    cursor: pointer;
+    /* margin-top: 20px; */
+    width: 100%;
+    /* min-height: calc(4.5rem + var(--buttons-border-width) * 2); */
+}
+
+.back_in_stock_modal-content {
+    height: auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* min-width: 300px; */
+    max-width: 470px;
+    min-width: 400px;
+    width: 100%;
+}
+
+.back_in_stock_modal-close {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/* .inventoryNote {
+    font-size: 14px;
+    margin-top: 10px;
+} */
+
+/* Additional styling */
+.back_in_stock_restock-alerts-form {
+    text-align: center;
+    padding: 20px;
+}
+
+.back_in_stock_restock-alerts-email-input {
+    padding: 10px;
+    height: 45px !important;
+    width: 100% !important;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.back_in_stock_restock-alerts-variant-select {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+.back_in_stock_custom-modal {
+    display: none;
+}
+
+    /* Define the custom button styles */
+    .back_in_stock_custom-button {
+        width: 100%;
+        height: 40px !important;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        /* border: 1px solid #CCC; */
+        background-color: #0D2330 ;
+        color: #fff;
+        border-radius: 1rem; /* Set the border radius */
+        padding: 0px 20px; /* Set padding */
+        cursor: pointer; /* Add a pointer cursor on hover */
+    }
+
+    /* Define styles for button content */
+    /* .custom-button__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    /* Define styles for button text */
+    /* .custom-button__text {
+        font-size: 16px;
+    } */
+
+#backInStockAddItemToNotifyLetter{
+    background-color: #0D2330  !important;
+    color: #fff;
+}
+
+
+
+    /* Style for the container div */
+.back_in_stock_container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Style for the button group */
+.back_in_stock_btn-grp {
+    display: flex;
+    gap:1px;
+}
+
+/* Common button styles */
+.back_in_stock_notify-btn {
+    font-size: 14px;
+    height: 2.2rem;
+    border: none;
+    border-radius: 4px;
+    padding: 0px 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+/* Primary button styles */
+#backInStockSmsbtn {
+    background-color: #0D2330 ;
+    color: #fff;
+    margin-right: 0px;
+    border: 1px solid #CCC;
+}
+
+/* Secondary button styles */
+#backInStockEmailbtn {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #CCC;
+    margin-right: 0px;
+
+}
+/* Hover effect for the secondary button */
+#backInStockEmailbtn:hover {
+    background-color: #0D2330 !important;
+    color: #fff !important;
+}
+/* Hover effect for the secondary button */
+#backInStockSmsbtn:hover {
+    background-color: #0D2330 !important;
+    color: #fff !important;
+}
+
+#backInStockCellno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backInStockDropdown {
+    margin: auto 10px 0px 0px;
+}
+#backInStockDropdown input{
+    height: 45px;
+    border-radius: 5px;
+}
+
+#backInStockHeading{
+    font-size: 1.5rem !important;
+}
+
+#backInStockTitle{
+    font-size: 1.2rem !important;
+}
